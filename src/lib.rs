@@ -8,7 +8,7 @@
 //! - [Compatibility with `thiserror`](#compatibility-with-thiserror)
 //!
 //!  ## Github
-//! - [https://github.com/ChainThemAll/error_code](https://github.com/ChainThemAll/error_code)
+//! - [https://github.com/ChainThemAll/err_code](https://github.com/ChainThemAll/err_code)
 //!
 //! ## Basic Usage
 //!
@@ -25,7 +25,7 @@
 //! Here’s a minimal example of defining an error enum with error codes:
 //!
 //! ```rust
-//! use error_code::ErrorCode;
+//! use err_code::ErrorCode;
 //!
 //! #[derive(ErrorCode, Debug)]
 //! enum MyError {
@@ -69,7 +69,7 @@
 //! Here’s an example that uses both `type` and `default`:
 //!
 //! ```rust
-//! use error_code::ErrorCode;
+//! use err_code::ErrorCode;
 //!
 //! #[derive(ErrorCode, Debug)]
 //! #[error_code(type = "u16", default = 300)]
@@ -107,7 +107,7 @@
 //! Here’s an example that integrates both macros:
 //!
 //! ```rust
-//! use error_code::ErrorCode;
+//! use err_code::ErrorCode;
 //! use thiserror::Error;
 //! use std::io::Error as IoError;
 //!
