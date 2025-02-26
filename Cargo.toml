@@ -1,0 +1,10 @@
+[package]
+name = "error_code"
+version = "0.1.0"
+edition = "2021"
+authors = ["alain"]
+description = "This is a crate that sets error codes for program errors, and has the ease of use of alerts, and has very good compatibility with this error"
+license = "MIT OR Apache-2.0"
+
+[lib]
+proc-macro = true
