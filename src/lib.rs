@@ -7,6 +7,9 @@
 //! - [Advanced Usage](#advanced-usage)
 //! - [Compatibility with `thiserror`](#compatibility-with-thiserror)
 //!
+//!  ## Github
+//! - [https://github.com/ChainThemAll/error_code](https://github.com/ChainThemAll/error_code)
+//!
 //! ## Basic Usage
 //!
 //! The simplest way to use the `ErrorCode` macro requires just a few steps:
